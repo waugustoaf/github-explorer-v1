@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react';
+import { ChangeEvent, useContext, useState } from 'react';
 import { useRouter } from 'next/router';
 
 import {
@@ -19,7 +19,7 @@ export default function Home() {
 
   const router = useRouter();
 
-  function changeUser(event: React.FormEvent<HTMLInputElement>) {
+  function changeUser(event: ChangeEvent<HTMLInputElement>) {
     setUser(event.target.value);
   }
 
