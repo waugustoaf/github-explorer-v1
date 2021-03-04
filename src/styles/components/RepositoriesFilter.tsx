@@ -6,6 +6,7 @@ export const Container = styled.div`
   grid-gap: 0.2rem;
   margin: 1rem auto;
   padding-right: 2rem;
+  overflow-y: auto;
 
   @media screen and (max-width: ${(props) => props.theme.breakpoints.md}) {
     grid-template-columns: 1fr 1fr;
