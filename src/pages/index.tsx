@@ -1,10 +1,43 @@
-import styled from 'styled-components'
+import { useContext, useState } from 'react';
+import { useRouter } from 'next/router';
 
-const Title = styled.h1`
-  color: red;
-  font-size: 50px;
-`
+import {
+  Container,
+  Logo,
+  Title,
+  Form,
+  Input,
+  Button,
+} from '../styles/pages/index';
+
+import { MdSearch } from 'react-icons/md';
+import { UserContext } from '../contexts/UserContext';
 
 export default function Home() {
-  return <Title>My page</Title>
+  const [user, setUser] = useState('');
+  const { setUsernameData } = useContext(UserContext);
+
+  const router = useRouter();
+
+  function changeUser(event: React.FormEvent<HTMLInputElement>) {
+    setUser(event.target.value);
+  }
+
+  function submit() {
+    setUsernameData(user);
+    router.push('repository');
+  }
+
+  return (
+    <Container>
+      <Logo src="icons/github-logo.svg" alt="GitHub" />
+      <Title>API GitHub</Title>
+      <Form>
+        <Input placeholder="Usuario" value={user} onChange={changeUser} />
+        <Button onClick={submit}>
+          <MdSearch size={42} />
+        </Button>
+      </Form>
+    </Container>
+  );
 }
