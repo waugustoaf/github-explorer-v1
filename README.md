@@ -33,7 +33,7 @@
 ![App Screenshot](https://i.imgur.com/PCuohkI.png)
 ![App Screenshot](https://i.imgur.com/FQrZJop.png)
 <p align="center">
-  <a href="https://githubexplorer-v2.vercel.app/" target="_blank">
+  <a href="https://githubexplorer-v1.vercel.app/" target="_blank">
     <img alt="Demo on Vercel" src="https://i.imgur.com/yT2WyzM.png">
   </a>
 </p>
