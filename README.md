@@ -19,10 +19,10 @@
   </a>
 
   
-</p>
+</p>https://i.imgur.com/KETH4hK.png
 
 <h4 align="center">
-    Here you can get details about specific repositories like stars, forks and issues based on the name of the public repository
+    Here you can get details about profile public repositories and some user profile informations.
 </h4>
 
 <p align="center">
@@ -30,8 +30,8 @@
   <a href="#memo-license">License</a>
 </p>
 
-![App Screenshot](https://i.imgur.com/NNza6Xr.png)
-![App Screenshot](https://i.imgur.com/KETH4hK.png)
+![App Screenshot](https://i.imgur.com/PCuohkI.png)
+![App Screenshot](https://i.imgur.com/FQrZJop.png)
 <p align="center">
   <a href="https://githubexplorer-v2.vercel.app/" target="_blank">
     <img alt="Demo on Vercel" src="https://i.imgur.com/yT2WyzM.png">
