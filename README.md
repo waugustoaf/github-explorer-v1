@@ -1,28 +1,62 @@
-# TypeScript & Styled Components Next.js example
+<h1 align="center">
+    <img alt="GoBarber API" src="https://i.imgur.com/tDfD3uF.png" />
+    <br>
+    Detail from github repositories - V 1.0
+</h1>
 
-This is a really simple project that show the usage of Next.js with TypeScript and Styled Components.
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/waugustoaf/github-explorer-v1?style=for-the-badge">
 
-## Deploy your own
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/waugustoaf/github-explorer-v1?style=for-the-badge">
+  <a href="https://github.com/waugustoaf/github-explorer-v1/commits">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/waugustoaf/github-explorer-v1?style=for-the-badge">
+  </a>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+  <img alt="GitHub" src="https://img.shields.io/github/license/waugustoaf/github-explorer-v1?style=for-the-badge">
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript-styled-components&project-name=with-typescript-styled-components&repository-name=with-typescript-styled-components)
+  <a href="https://github.com/waugustoaf/github-explorer-v1/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/waugustoaf/github-explorer-v1?style=for-the-badge">
+  </a>
 
-## How to use it?
+  
+</p>
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+<h4 align="center">
+    Here you can get details about specific repositories like stars, forks and issues based on the name of the public repository
+</h4>
 
-```bash
-npx create-next-app --example with-typescript-styled-components with-typescript-styled-components-app
-# or
-yarn create next-app --example with-typescript-styled-components with-typescript-styled-components-app
-```
+<p align="center">
+  <a href="#fire-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+![App Screenshot](https://i.imgur.com/NNza6Xr.png)
+![App Screenshot](https://i.imgur.com/KETH4hK.png)
+<p align="center">
+  <a href="https://githubexplorer-v2.vercel.app/" target="_blank">
+    <img alt="Demo on Vercel" src="https://i.imgur.com/yT2WyzM.png">
+  </a>
+</p>
 
-## Notes
+## :fire: Technologies
 
-This is an amalgamation of the 2 existing examples:
+- [ReactJS](https://reactjs.org/)
+- [Typescript][ts]
+- [VS Code][vscode]
 
-- [with-typescript](https://github.com/vercel/next.js/tree/canary/examples/with-typescript)
-- [with-styled-components](https://github.com/vercel/next.js/tree/canary/examples/with-styled-components)
+---
+
+## :book: Use Project
+1. Paste 'git clone [(repository link)](https://github.com/waugustoaf/github-explorer-v1.git)'.
+2. At the project folder, open a console.
+3. Type 'yarn' to download dependecies
+4. Type 'yarn start' and open the application ath the address: http://localhost:3000
+5. If you want to modify the project, open the folder at a text editor. (If you use VSCode, type 'code .' at the console).
+
+## :memo: License
+
+This project is under the MIT license. See the [LICENSE](https://github.com/waugustoaf/github-explorer-v1/blob/main/LICENSE) for more information.
+
+
+[ts]: https://www.typescriptlang.org
+[vscode]: https://code.visualstudio.com/
